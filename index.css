@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,19 +49,20 @@ table {
 	border-spacing: 0;
 }
 
-
+.containers{
+  width:100%;
+}
 .containers a {
-  margin: auto;
-  width: 100px;
+  width: 15%;
   font-size: 20px;
   border: 1px solid lightgray;
   color: white;
-  padding: 35px;
+  padding: 20px;
   display: inline-block;
   border-radius: 20px;
   margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 60px;
+  margin-right: 60px;
   font-family: 'Roboto Mono', monospace;
   align: center;
   border-radius:10px;
@@ -79,10 +82,14 @@ background: #FF764E;
 
 h1{
   font-family: 'Chelsea Market', cursive;
+  font-size:40px;
+  padding:20px;
 }
 
 h2{
   font-family: 'Roboto Mono', monospace;
+  font-size:20px;
+  padding: 20px;
 }
 
 p{
@@ -107,6 +114,11 @@ footer{
 
 #header{
   border-radius: 50%;
+  overflow: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 30%;
+  float:left;
 }
 .header{
   overflow: auto;
@@ -139,8 +151,13 @@ display: block;
   margin-right: auto;
   width: 30%;
   font-size:.8rem;
+  padding:20px;
 }
 #footer{
-  max-width: 100%;
-  padding:20px;
+  height: 200px;
+  width: 100%;
+}
+h1 h2{
+  float:right;
+  padding-top: 40px;
 }
